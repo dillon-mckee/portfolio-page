@@ -1,0 +1,261 @@
+                                /*  Fonts  */
+
+                        @font-face {
+                            font-family: 'lato_regular';
+                            src: url('../fonts/lato-regular.eot');
+                            src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-regular.woff') format('woff'), url('../fonts/lato-regular.ttf') format('truetype'), url('../fonts/lato-regular.svg#LatoRegular') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+
+                        @font-face {
+                            font-family: 'lato_bold';
+                            src: url('../fonts/lato-bold.eot');
+                            src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-bold.woff') format('woff'), url('../fonts/lato-bold.ttf') format('truetype'), url('../fonts/lato-bold.svg#LatoBold') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+
+                        i {
+                            padding-left: 10px;
+                            color: #3b3b3b;
+                        }
+
+                        body {
+                            background-color: #287194;
+                        }
+
+                        header {
+                            background-image: url("../img/stream.jpg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            text-align: center;
+                            height: 600px;
+                        }
+
+                        a:hover {
+                            text-shadow: 2px 2px dimgrey;
+                            color: white;
+                        }
+                        /*  header-section  */
+
+                        .header-section {
+                            background-color: #287194;
+                            width: 100%;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            display: flex;
+                            align-items: center;
+                            max-width: 1000px;
+                        }
+
+                        .header-section .profile-img {
+                            border-radius: 5px;
+                        }
+
+                        .header-section i {
+                            font-size: 56px;
+                            color: #85D262;
+                        }
+
+                        .header-section .intro-top {
+                            padding-top: 40px;
+                            display: inline-block;
+                            text-align: center;
+                            width: 100%;
+                        }
+
+                        .header-section .intro-top #title {
+                            display: inline-block;
+                            text-align: center;
+                            width: 100%;
+                            color: #EBD21B;
+                        }
+
+                        .header-section .intro-about {
+                            display: inline-block;
+                            color: #000;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: normal;
+                            font-size: 1rem;
+                            margin-bottom: 70px;
+                            width: 100%;
+                            max-width: 60%;
+                            padding-top: 20px;
+                            padding-right: 20px;
+                        }
+
+                        .header-section .intro-about p {
+                            margin-top: 0;
+                            margin-bottom: 1rem;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        /*  Portfolio  */
+
+                        .portfolio .wrapper {
+                            padding: 2rem;
+                        }
+
+                        .portfolio {
+                            width: 100%;
+                            padding-top: 50px;
+                            background-color: #e2e2e2;
+                            overflow: hidden;
+                            line-height: 1.5;
+                        }
+
+                        .portfolio h1 {
+                            text-align: center;
+                            margin-bottom: 50px;
+                        }
+
+                        .portfolio .work {
+                            display: block;
+                            width: 42%;
+                            height: auto;
+                            float: left;
+                            margin-right: 6.666666666666667%;
+                            margin-bottom: 100px;
+                        }
+
+                        .work .picture {
+                            display: block;
+                            width: 100%;
+                            float: left;
+                            margin-right: 1.5606936416185%;
+                        }
+
+                        .work .details {
+                            display: block;
+                            width: 89%;
+                            float: left;
+                        }
+
+                        .work .details a {
+                            color: #3b3b3b
+                        }
+
+                        .work h3 {
+                            margin-bottom: 20px;
+                            color: #767575;
+                            font-family: "lato_bold", arial;
+                            font-size: 22px;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                        }
+
+                        .work p {
+                            margin-bottom: 20px;
+                            color: #9e9e9e;
+                            font-family: "lato_regular", arial;
+                            font-size: 15px;
+                            line-height: 22px;
+                        }
+
+                        .work a {
+                            color: #848484;
+                            font-family: "lato_regular", arial;
+                            font-size: 15px;
+                            text-decoration: none;
+                            letter-spacing: 5px;
+                        }
+
+                        .work a:hover {
+                            color: #353434;
+                        }
+
+                        .work a span {
+                            font-family: arial;
+                            margin-left: 10px;
+                        }
+                        /*  Footer  */
+
+                        footer {
+                            padding: 100px 0;
+                            border-top: 1px #dedede solid;
+                            background: #287194;
+                            text-align: center;
+                        }
+
+                        footer .contact {
+                            color: #3b3b3b;
+                            font-family: "lato_regular", arial;
+                            font-size: 14px;
+                            margin-top: 30px;
+                            line-height: 25px;
+                        }
+
+                        footer .contact a {
+                            text-decoration: none;
+                            font-family: 'lato_bold', arial;
+                            font-weight: bold;
+                            color: #3b3b3b;
+                        }
+
+                        a {
+                            color: #3b3b3b;
+                        }
+                        /*  Responsive code  */
+
+                        @media (max-width:1200px) {
+                            .wrapper {
+                                padding: 0 40px;
+                            }
+                            @media (max-width:1000px) {
+                                .header-section .caption {
+                                    text-align: center;
+                                    margin-left: 0;
+                                }
+                                .header-section .intro-about {
+                                    display: block!important;
+                                    color: #000;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-weight: normal;
+                                    font-size: .9rem!important;
+                                    width: 100%;
+                                    max-width: 80%;
+                                    padding-top: 0px;
+                                }
+                                @media (max-width:800px) {
+                                    .portfolio .work {
+                                        width: 100%;
+                                        margin: auto!important;
+                                    }
+                                    .header-section {
+                                        width: 100%;
+                                        overflow: hidden;
+                                        margin: 0 auto;
+                                    }
+                                    .header-section .intro-top {
+                                        display: block!important;
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                    .header-section .intro-about {
+                                        display: block!important;
+                                        color: #000;
+                                        font-family: 'Roboto', sans-serif;
+                                        font-weight: normal;
+                                        font-size: .9rem!important;
+                                        width: 100%;
+                                        max-width: 80%;
+                                        padding-top: 50px;
+                                    }
+                                }
+                                @media (max-width:500px) {
+                                    .portfolio .work {
+                                        width: 100%;
+                                        margin-right: 0!important;
+                                    }
+                                    .header-section {
+                                        width: 100%;
+                                        overflow: hidden;
+                                        margin: 0 auto;
+                                        display: block;
+                                    }
+                                    .header-section .intro-about {
+                                        display: block!important;
+                                        margin: auto;
+                                    }
+                                }
